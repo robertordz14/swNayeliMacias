@@ -4,8 +4,9 @@ self.addEventListener('install', e=>{
          //Dentro de cache add all le ingresaremos un vector
         cache.addAll([
             './',
-            'main.js',
             'index.html',
+            'main.js',
+            'app.js',
             'css/style.css',
             'images/Apple.png',
             'images/Apple1.jpg',
